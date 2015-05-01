@@ -5,6 +5,13 @@
 ### PASOS PARA DESCARGAR LA APP DEL "PARTIDO DE LA RED" ####
 ############################################################
 
+
+
+--------------------------------------------------------
+
+##############################################
+### PASOS PARA HACER CORRER LA PLATAFORMA ####
+##############################################
 /** INSTALAMOS CURL **/
 sudo apt-get install curl
 
@@ -12,18 +19,10 @@ sudo apt-get install curl
 sudo apt-get install git
 
 - Debemos generar un TOKEN en GITHUB con nuestro usuario y habilitar la columna de los permisos WRITE. Luego en la terminal de UBUNTU, pegar esta linea.
-
 curl -u <token>:x-oauth-basic https://api.github.com/user
 
 /** DESCARGAMOS API DEL PARTIDO.DE.LA.RED **/
-git clone https://github.com/PartidoDeLaRed/app.git
-
---------------------------------------------------------
-
-##############################################
-### PASOS PARA HACER CORRER LA PLATAFORMA ####
-##############################################
-
+git clone https://github.com/arielpont/EDJ.AR.git
 
 /** NOS UBICAMOS EN EL DIRECCTORIO DE LA "APP" **/
 cd app
@@ -62,9 +61,6 @@ En el explorador ver "localhost:3000"
 ///////////////////////////////////////////////////////////////////////////////////////////
 
 COSAS DE UTILIDAD
-
-/** CURL CON TOKEN DE EJEMPLO **"
-
 
 /** COMO RESETEAR SERVICIOS MONGODB **/
 sudo service mongodb restart
