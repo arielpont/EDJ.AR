@@ -1,0 +1,74 @@
+### PROBADO SOBRE UBUNTU 14.04 LTS
+-------------------------------------------
+
+############################################################
+### PASOS PARA DESCARGAR LA APP DEL "PARTIDO DE LA RED" ####
+############################################################
+
+/** INSTALAMOS CURL **/
+sudo apt-get install curl
+
+/** INSTALAMOS GIT **/
+sudo apt-get install git
+
+- Debemos generar un TOKEN en GITHUB con nuestro usuario y habilitar la columna de los permisos WRITE. Luego en la terminal de UBUNTU, pegar esta linea.
+
+curl -u <token>:x-oauth-basic https://api.github.com/user
+
+/** DESCARGAMOS API DEL PARTIDO.DE.LA.RED **/
+git clone https://github.com/PartidoDeLaRed/app.git
+
+--------------------------------------------------------
+
+##############################################
+### PASOS PARA HACER CORRER LA PLATAFORMA ####
+##############################################
+
+
+/** NOS UBICAMOS EN EL DIRECCTORIO DE LA "APP" **/
+cd app
+
+/** CLONAMOS EL ARCHIVO DE CONFIGURACIÓN "sample.json" y lo renombramos como "development.json" **/
+sudo cp config/sample.json config/development.json
+
+Abrimos el archivo "development.json" y en "auth" colocamos
+el USERNAME y PASSWORD de UBUNTU
+
+
+/** INSTALAMOS NODE Y NODE PACKAGE MANAGMENT **/
+sudo apt-get install nodejs
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+
+/** CAMBIAMOS VALOR A VARIABLE GLOBLAL **/
+export NODE_PATH=.
+
+/** INSTALAMOS COMPONENTES NECESARIOS **/
+sudo npm install component
+sudo npm install express
+sudo npm install mandrill
+sudo apt-get install mongodb
+
+/** OPCIONAL: SETEAMOS VARIABLES GLOBALES PARA PODER TRANSFERIR MAS DATOS **/
+export GITHUB_USERNAME=username
+export GITHUB_PASSWORD=password
+
+/** INICIAMOS **/
+sudo make
+
+En el explorador ver "localhost:3000"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+COSAS DE UTILIDAD
+
+/** CURL CON TOKEN DE EJEMPLO **"
+
+
+/** COMO RESETEAR SERVICIOS MONGODB **/
+sudo service mongodb restart
+
+/** BUSCAR PALABRAS EN ARCHIVOS EN TAL DIRECTORIO **/
+grep -r "perro" /home/miusuario/documentos/ 
+

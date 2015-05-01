@@ -1,0 +1,68 @@
+{
+  "protocol": "http",
+  "host": "localhost",
+  "privatePort": 3000,
+  "publicPort": 3000,
+  "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
+  "client": [
+    "protocol",
+    "host",
+    "publicPort",
+    "env",
+    "logo",
+    "favicon",
+    "organization name",
+    "organization url",
+    "learn more url",
+    "google analytics tracking id",
+    "comments per page",
+    "faq",
+    "tos",
+    "pp",
+    "glossary"
+  ],
+  "auth": {
+    "basic": {
+      "username": "EIDOS",
+      "password": "eidos123"
+    }
+  },
+  "mailer": {
+    "service": "Gmail",
+    "auth": {
+      "user": "edj.ar@aeidos.com.ar",
+      "pass": "SanFrancisco1945"
+    }
+  },
+  "mandrillMailer": {
+    "key": "UOiB52D39E75ltCiKzasEg",
+    "from" : {
+      "name": "Plataforma | Eco-Debate Joven",
+      "email": "edj.ar@aeidos.com.ar"
+    }
+  },
+  "socialshare" : {
+    "siteName" : "Plataforma | Eco-Debate Joven",
+    "siteDescription" : "Plataforma Nacional de Eco-Debate Joven",
+    "image" : "https://dl.dropboxusercontent.com/u/71896271/Plataforma/logo.png",
+    "domain" : "ecodebatejoven.org",
+    "twitter" : {
+      "username" : "@EcoDebateJoven"
+    }
+  },
+  "locale" : "es",
+  "logo" : "https://dl.dropboxusercontent.com/u/71896271/Plataforma/logo.png",
+  "favicon" : "https://dl.dropboxusercontent.com/u/71896271/Plataforma/logo.png",
+  "organization name" : "Plataforma - EDJ",
+  "organization url" : "http://www.ecodebatejoven.com",
+  "learn more url": "",
+  "staff": ["arielpont@hotmail.com", "admin1@aeidos.com.ar", "admin2@aeidos.com.ar", "admin3@aeidos.com.ar", "admin4@aeidos.com.ar", "admin5@aeidos.com.ar"],
+  "google analytics tracking id" : "UA-616724633-1",
+  "rss enabled" : true,
+  "comments per page": 0,
+  "spam limit": 1,
+  "faq": true,
+  "tos": true,
+  "pp": true,
+  "glossary": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "paragraphs",
+  "description": "Split a single string into several paragraphs",
+  "version": "0.2.0",
+  "keywords": [
+    "string",
+    "paragraphs",
+    "p",
+    "split"
+  ],
+  "dependencies": {
+    "component/truncate": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "slifszyc/paragraphs"
+}

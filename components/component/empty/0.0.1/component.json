@@ -1,0 +1,21 @@
+{
+  "name": "empty",
+  "description": "Empties dom elements, arrays and array-like objects",
+  "version": "0.0.1",
+  "keywords": [
+    "browser",
+    "empty",
+    "dom",
+    "array"
+  ],
+  "dependencies": {
+    "juliangruber/isarray": "0.0.1"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "repository": "component/empty"
+}

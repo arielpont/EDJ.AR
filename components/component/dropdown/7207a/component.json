@@ -1,0 +1,25 @@
+{
+  "name": "dropdown",
+  "description": "Dropdown component",
+  "version": "1.0.2",
+  "author": "Damian Suarez <rdsuarez@gmail.com>",
+  "twitter": "@retrofox",
+  "keywords": [
+    "dropdown",
+    "component"
+  ],
+  "dependencies": {
+    "component/jquery": "*",
+    "component/classes": "*",
+    "component/inherit": "*",
+    "component/menu": "*"
+  },
+  "styles": [
+    "dropdown.css"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "repository": "component/dropdown"
+}

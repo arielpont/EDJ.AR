@@ -1,0 +1,22 @@
+{
+  "name": "settings-password",
+  "description": "Settings password view",
+  "dependencies": {
+    "visionmedia/jade": "1.1.5",
+    "visionmedia/debug": "0.7.4",
+    "component/t": "1.0.0"
+  },
+  "locals": [
+    "form-view"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "styles": [
+    "styles.styl"
+  ],
+  "scripts": [
+    "view.js"
+  ],
+  "main": "view.js"
+}

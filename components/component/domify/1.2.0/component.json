@@ -1,0 +1,22 @@
+{
+  "name": "domify",
+  "version": "1.2.0",
+  "description": "turn HTML into DOM elements",
+  "scripts": [
+    "index.js"
+  ],
+  "development": {
+    "dependencies": {
+      "component/assert": "*"
+    }
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "client",
+    "browser",
+    "component"
+  ],
+  "license": "MIT",
+  "repository": "component/domify"
+}
