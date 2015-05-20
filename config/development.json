@@ -23,19 +23,19 @@
   ],
   "auth": {
     "basic": {
-      "username": "xxxxxxxxxx",
-      "password": "xxxxxxxxxx"
+      "username": 'eidos',
+      "password": 'Edj2015"=!%'
     }
   },
   "mailer": {
     "service": "Gmail",
     "auth": {
       "user": "edj.ar@aeidos.com.ar",
-      "pass": "xxxxxxxxxx"
+      "pass": "SanFrancisco1945"
     }
   },
   "mandrillMailer": {
-    "key": "xxxxxxxxxx",
+    "key": "UOiB52D39E75ltCiKzasEg",
     "from" : {
       "name": "Plataforma | Eco-Debate Joven",
       "email": "edj.ar@aeidos.com.ar"
@@ -57,12 +57,12 @@
   "organization url" : "http://www.ecodebatejoven.com",
   "learn more url": "",
   "staff": ["arielpont@hotmail.com", "admin1@aeidos.com.ar", "admin2@aeidos.com.ar", "admin3@aeidos.com.ar", "admin4@aeidos.com.ar", "admin5@aeidos.com.ar"],
-  "google analytics tracking id" : "xxxxxxxxxx",
+  "google analytics tracking id" : "UA-616724633-1",
   "rss enabled" : true,
   "comments per page": 0,
   "spam limit": 1,
-  "faq": true,
+  "faq": false,
   "tos": true,
   "pp": true,
-  "glossary": true
+  "glossary": false
 }
