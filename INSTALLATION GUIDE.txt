@@ -48,7 +48,7 @@ sudo npm install express
 sudo npm install mandrill
 sudo apt-get install mongodb
 
-/** OPCIONAL: SETEAMOS VARIABLES GLOBALES PARA PODER TRANSFERIR MAS DATOS **/
+/** SETEAMOS VARIABLES GLOBALES PARA PODER TRANSFERIR MAS DATOS **/
 export GITHUB_USERNAME=username
 export GITHUB_PASSWORD=password
 
