@@ -68,3 +68,4 @@ sudo service mongodb restart
 /** BUSCAR PALABRAS EN ARCHIVOS EN TAL DIRECTORIO **/
 grep -r "perro" /home/miusuario/documentos/ 
 
+190077c3dda1b2a13db9f16ce9
