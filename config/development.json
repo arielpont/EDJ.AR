@@ -23,19 +23,19 @@
   ],
   "auth": {
     "basic": {
-      "username": "eidos",
-      "password": "Edj2015#$%"
+      "username": "",
+      "password": ""
     }
   },
   "mailer": {
     "service": "Gmail",
     "auth": {
-      "user": "edj.ar@aeidos.com.ar",
-      "pass": "SanFrancisco1945"
+      "user": "",
+      "pass": ""
     }
   },
   "mandrillMailer": {
-    "key": "UOiB52D39E75ltCiKzasEg",
+    "key": "",
     "from" : {
       "name": "Plataforma | Eco-Debate Joven",
       "email": "edj.ar@aeidos.com.ar"
